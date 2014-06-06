@@ -22,7 +22,7 @@
 
 using System;
 
-namespace DspAudio.Vst
+namespace gen.snd.Vst
 {
 	/// Currently we're dealing with samples.
 	/// In order to calculate, we divide <code>CycleOffset / NumChannels</code>.

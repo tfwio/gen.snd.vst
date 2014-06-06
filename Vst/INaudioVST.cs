@@ -21,9 +21,9 @@
 #endregion
 
 using System;
-using DspAudio.Midi;
+using gen.snd.Midi;
 
-namespace DspAudio.Vst
+namespace gen.snd.Vst
 {
 	/// <remarks>
 	/// We are missing a method of checking to see if any Midi Events are ready

@@ -28,7 +28,7 @@ using System.Linq;
 using Jacobi.Vst.Core;
 using Jacobi.Vst.Core.Host;
 
-namespace DspAudio.Vst.Module
+namespace gen.snd.Vst.Module
 {
 	public class VstPluginChain
 	{

@@ -10,7 +10,7 @@ using System;
 using Jacobi.Vst.Core;
 using IPluginCommander = Jacobi.Vst.Core.Host.IVstPluginCommandStub;
 
-namespace DspAudio.Vst.Module
+namespace gen.snd.Vst.Module
 {
 	public class VstCCParam
 	{

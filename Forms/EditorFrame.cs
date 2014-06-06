@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Windows.Forms;
 
-using DspAudio.Vst.Module;
+using gen.snd.Vst.Module;
 using Jacobi.Vst.Core;
 using Jacobi.Vst.Core.Host;
 
-namespace DspAudio.Vst.Forms
+namespace gen.snd.Vst.Forms
 {
 	/// <summary>
 	/// The frame in which a custom plugin editor UI is displayed.

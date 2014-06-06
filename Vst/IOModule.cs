@@ -22,10 +22,10 @@
 
 using System;
 using System.Linq;
-using DspAudio.Vst.Module;
+using gen.snd.Vst.Module;
 using Jacobi.Vst.Core;
 
-namespace DspAudio.Vst
+namespace gen.snd.Vst
 {
 	public class IOModule : IDisposable
 	{

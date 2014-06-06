@@ -5,12 +5,12 @@ using System.Diagnostics;
 using System.Drawing;
 using System.Windows.Forms;
 
-using DspAudio.Vst.Module;
+using gen.snd.Vst.Module;
 using Jacobi.Vst.Core;
 using Jacobi.Vst.Core.Host;
 using Jacobi.Vst.Interop.Host;
 
-namespace DspAudio.Vst.Forms
+namespace gen.snd.Vst.Forms
 {
 	class PluginProgram: INotifyPropertyChanged
 	{

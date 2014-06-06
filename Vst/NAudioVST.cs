@@ -25,15 +25,15 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 
-using DspAudio.Midi;
-using DspAudio.Vst;
-using DspAudio.Vst.Module;
+using gen.snd.Midi;
+using gen.snd.Vst;
+using gen.snd.Vst.Module;
 using Jacobi.Vst.Core;
 using Jacobi.Vst.Core.Host;
 using NAudio.CoreAudioApi;
 using NAudio.Wave;
 
-namespace DspAudio.Vst
+namespace gen.snd.Vst
 {
 
 	// www.publicbroadcasting.org

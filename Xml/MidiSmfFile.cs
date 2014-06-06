@@ -11,7 +11,7 @@ using System.IO;
 using System.Xml;
 using System.Xml.Serialization;
 
-namespace DspAudio.Vst.Xml
+namespace gen.snd.Vst.Xml
 {
 	public class MidiSmfFile : SerializableClass<MidiSmfFile>
 	{

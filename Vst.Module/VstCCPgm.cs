@@ -12,10 +12,10 @@ using System.Diagnostics;
 
 using Jacobi.Vst.Core.Host;
 using Jacobi.Vst.Core.Plugin;
-using Bitset = DspAudio.Midi.MidiReader.SmfStringFormatter;
+using Bitset = gen.snd.Midi.MidiReader.SmfStringFormatter;
 using IPluginCommander = Jacobi.Vst.Core.Host.IVstPluginCommandStub;
 
-namespace DspAudio.Vst.Module
+namespace gen.snd.Vst.Module
 {
 
 

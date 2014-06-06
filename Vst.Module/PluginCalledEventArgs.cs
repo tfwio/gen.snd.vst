@@ -25,15 +25,15 @@ using System.Diagnostics;
 using System.Drawing;
 using System.IO;
 
-using DspAudio.IffForm;
-using DspAudio.Midi;
+using gen.snd.IffForm;
+using gen.snd.Midi;
 using Jacobi.Vst.Core;
 using Jacobi.Vst.Core.Host;
 using Jacobi.Vst.Interop.Host;
 using NAudio.CoreAudioApi;
 using NAudio.Wave;
 
-namespace DspAudio.Vst.Module
+namespace gen.snd.Vst.Module
 {
 	/// <summary>
 	/// Event arguments used when one of the mehtods is called.

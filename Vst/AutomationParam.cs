@@ -24,7 +24,7 @@ using System;
 using System.Linq;
 using System.Xml.Serialization;
 
-namespace DspAudio.Vst
+namespace gen.snd.Vst
 {
 	public class AutomationParam
 	{

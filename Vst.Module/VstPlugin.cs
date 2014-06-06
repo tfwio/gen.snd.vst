@@ -26,13 +26,13 @@ using System.Windows.Forms;
 using System.Xml;
 using System.Xml.Serialization;
 
-using DspAudio.Vst.Forms;
+using gen.snd.Vst.Forms;
 using Jacobi.Vst.Core;
 using Jacobi.Vst.Core.Host;
 using Jacobi.Vst.Core.Plugin;
 using Jacobi.Vst.Interop.Host;
 
-namespace DspAudio.Vst.Module
+namespace gen.snd.Vst.Module
 {
 	/// <summary>
 	/// implements: IVstPluginContext

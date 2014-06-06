@@ -24,11 +24,11 @@ using System;
 using System.Drawing;
 using System.IO;
 
-using DspAudio.Vst.Module;
+using gen.snd.Vst.Module;
 using Jacobi.Vst.Core;
 using Jacobi.Vst.Core.Host;
 
-namespace DspAudio.Vst
+namespace gen.snd.Vst
 {
 	/// <summary>
 	/// The HostCommandStub class represents the part of the host that a plugin can call.
