@@ -18,7 +18,7 @@
     <SignAssembly>True</SignAssembly>
     <DelaySign>False</DelaySign>
     <AssemblyOriginatorKeyMode>File</AssemblyOriginatorKeyMode>
-    <AssemblyOriginatorKeyFile>gen.snd.vst.snk</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>..\gen.snd.common\gen.snd.common.snk</AssemblyOriginatorKeyFile>
     <DocumentationFile>bin\x86\Release\DspAudio.Vst.xml</DocumentationFile>
     <NoWin32Manifest>False</NoWin32Manifest>
     <IntermediateOutputPath>obj\$(Configuration)\</IntermediateOutputPath>
