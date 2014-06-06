@@ -21,9 +21,9 @@
 #endregion
 
 using System;
-using DspAudio.Forms;
+using gen.snd.Forms;
 
-namespace DspAudio
+namespace gen.snd
 {
 	public interface IMidiView : IUi
 	{

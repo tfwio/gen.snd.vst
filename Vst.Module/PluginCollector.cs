@@ -11,7 +11,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Xml;
 
-namespace DspAudio.Vst.Module
+namespace gen.snd.Vst.Module
 {
 	/// <summary>
 	/// The responsibility of this class is to read/write Xml

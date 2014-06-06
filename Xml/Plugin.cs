@@ -15,11 +15,11 @@ using System.Windows.Forms;
 using System.Xml;
 using System.Xml.Serialization;
 
-using DspAudio;
-using DspAudio.Vst;
-using DspAudio.Vst.Module;
+using gen.snd;
+using gen.snd.Vst;
+using gen.snd.Vst.Module;
 
-namespace DspAudio.Vst.Xml
+namespace gen.snd.Vst.Xml
 {
 	
 	public class Plugin : PluginBase

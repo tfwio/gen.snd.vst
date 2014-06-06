@@ -14,10 +14,10 @@ using System.IO;
 using Jacobi.Vst.Core;
 using Jacobi.Vst.Core.Host;
 using Jacobi.Vst.Core.Plugin;
-using Bitset = DspAudio.Midi.MidiReader.SmfStringFormatter;
+using Bitset = gen.snd.Midi.MidiReader.SmfStringFormatter;
 using IPluginCommander = Jacobi.Vst.Core.Host.IVstPluginCommandStub;
 
-namespace DspAudio.Vst.Module
+namespace gen.snd.Vst.Module
 {
 	struct VstPluginBank {
 		const int ckMagic = 0x43636E4B;

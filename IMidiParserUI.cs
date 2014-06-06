@@ -22,13 +22,13 @@
 
 using System;
 using System.Drawing;
-using DspAudio.Forms;
-using DspAudio.Midi;
-using DspAudio.Vst;
-using DspAudio.Vst.Module;
-using DspAudio.Vst.Xml;
+using gen.snd.Forms;
+using gen.snd.Midi;
+using gen.snd.Vst;
+using gen.snd.Vst.Module;
+using gen.snd.Vst.Xml;
 
-namespace DspAudio
+namespace gen.snd
 {
 	public interface IMidiParserUI : INaudioVstWin
 	{

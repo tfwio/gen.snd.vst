@@ -24,11 +24,11 @@ using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
 
-using DspAudio.Vst.Module;
-using DspAudio.Vst.Xml;
+using gen.snd.Vst.Module;
+using gen.snd.Vst.Xml;
 using Jacobi.Vst.Core.Host;
 
-namespace DspAudio.Vst
+namespace gen.snd.Vst
 {
 	public interface INaudioVstContainer
 	{

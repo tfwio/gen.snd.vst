@@ -22,7 +22,7 @@
 
 using System;
 
-namespace DspAudio.Wave
+namespace gen.snd.Wave
 {
 
 	// Copied from the microDRUM project

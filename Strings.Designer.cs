@@ -22,7 +22,7 @@ namespace System {
 	[global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
 	[global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
 	[global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-	internal class Strings {
+	public class Strings {
 		
 		private static global::System.Resources.ResourceManager resourceMan;
 		
@@ -36,7 +36,7 @@ namespace System {
 		///   Returns the cached ResourceManager instance used by this class.
 		/// </summary>
 		[global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-		internal static global::System.Resources.ResourceManager ResourceManager {
+		public static global::System.Resources.ResourceManager ResourceManager {
 			get {
 				if (object.ReferenceEquals(resourceMan, null)) {
 					global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("gen.snd.Strings", typeof(Strings).Assembly);
@@ -51,7 +51,7 @@ namespace System {
 		///   resource lookups using this strongly typed resource class.
 		/// </summary>
 		[global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-		internal static global::System.Globalization.CultureInfo Culture {
+		public static global::System.Globalization.CultureInfo Culture {
 			get {
 				return resourceCulture;
 			}
@@ -63,7 +63,7 @@ namespace System {
 		/// <summary>
 		///   Looks up a localized string similar to Argument ‘{0}’ as allready been added to the Dictionary..
 		/// </summary>
-		internal static string DictionaryList_ErrorMessage {
+		public static string DictionaryList_ErrorMessage {
 			get {
 				return ResourceManager.GetString("DictionaryList_ErrorMessage", resourceCulture);
 			}
@@ -72,7 +72,7 @@ namespace System {
 		/// <summary>
 		///   Looks up a localized string similar to DictionaryList Usage Error.
 		/// </summary>
-		internal static string DictionaryList_ErrorMessage_Title {
+		public static string DictionaryList_ErrorMessage_Title {
 			get {
 				return ResourceManager.GetString("DictionaryList_ErrorMessage_Title", resourceCulture);
 			}
@@ -81,7 +81,7 @@ namespace System {
 		/// <summary>
 		///   Looks up a localized string similar to MTrk {0}.
 		/// </summary>
-		internal static string Filter_MidiTrack {
+		public static string Filter_MidiTrack {
 			get {
 				return ResourceManager.GetString("Filter_MidiTrack", resourceCulture);
 			}
@@ -90,7 +90,7 @@ namespace System {
 		/// <summary>
 		///   Looks up a localized string similar to {0:00}:{1:00}:{2:00}.
 		/// </summary>
-		internal static string ms_mbq {
+		public static string ms_mbq {
 			get {
 				return ResourceManager.GetString("ms_mbq", resourceCulture);
 			}
@@ -99,7 +99,7 @@ namespace System {
 		/// <summary>
 		///   Looks up a localized string similar to {0:00}:{1:00}:{3:00}:{2:000}.
 		/// </summary>
-		internal static string ms_mbqt {
+		public static string ms_mbqt {
 			get {
 				return ResourceManager.GetString("ms_mbqt", resourceCulture);
 			}
@@ -108,7 +108,7 @@ namespace System {
 		/// <summary>
 		///   Looks up a localized string similar to {0:00}:{1:00}:{2:000}.
 		/// </summary>
-		internal static string ms_mbt {
+		public static string ms_mbt {
 			get {
 				return ResourceManager.GetString("ms_mbt", resourceCulture);
 			}
@@ -131,7 +131,7 @@ namespace System {
 		///			&lt;tr&gt;&lt;td&gt;{Phone_1}&lt;/td&gt;&lt;/tr&gt;
 		///			&lt;tr&gt;&lt;td&gt;{Phone_2}&lt;/td&gt;&lt;/tr&gt; [rest of string was truncated]&quot;;.
 		/// </summary>
-		internal static string TestRow_Value {
+		public static string TestRow_Value {
 			get {
 				return ResourceManager.GetString("TestRow:Value", resourceCulture);
 			}

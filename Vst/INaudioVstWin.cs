@@ -21,9 +21,9 @@
 #endregion
 
 using System;
-using DspAudio.Midi;
+using gen.snd.Midi;
 
-namespace DspAudio.Vst
+namespace gen.snd.Vst
 {
 	/// <summary>
 	/// This interface simply implements VstContainer:NAudioVstContainer and System.Windows.Forms.IWin32Window,

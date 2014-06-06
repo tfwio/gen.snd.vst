@@ -1,4 +1,4 @@
-﻿namespace DspAudio.Vst.Forms
+﻿namespace gen.snd.Vst.Forms
 {
     partial class PluginForm
     {

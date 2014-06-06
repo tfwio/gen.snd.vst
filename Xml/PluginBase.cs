@@ -15,11 +15,11 @@ using System.Windows.Forms;
 using System.Xml;
 using System.Xml.Serialization;
 
-using DspAudio;
-using DspAudio.Vst;
-using DspAudio.Vst.Module;
+using gen.snd;
+using gen.snd.Vst;
+using gen.snd.Vst.Module;
 
-namespace DspAudio.Vst.Xml
+namespace gen.snd.Vst.Xml
 {
 	public class PluginBase
 	{
@@ -63,7 +63,7 @@ namespace DspAudio.Vst.Xml
 				if (string.IsNullOrEmpty(value[0].Value))
 					ProgramDump = new byte[0];
 				else ProgramDump = Convert.FromBase64String(value[0].Value);
-				//				MessageBox.Show(DspAudio.Midi.MidiReader.SmfStringFormatter.byteToString(ProgramDump));
+				//				MessageBox.Show(gen.snd.Midi.MidiReader.SmfStringFormatter.byteToString(ProgramDump));
 			}
 		}
 		/// <summary>

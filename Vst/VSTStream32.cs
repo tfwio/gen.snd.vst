@@ -25,14 +25,14 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Diagnostics;
 using System.Linq;
-using DspAudio.Midi;
-using DspAudio.Vst.Module;
+using gen.snd.Midi;
+using gen.snd.Vst.Module;
 using Jacobi.Vst.Core;
 using Jacobi.Vst.Core.Host;
 using Jacobi.Vst.Interop.Host;
 using NAudio.Wave;
 
-namespace DspAudio.Vst
+namespace gen.snd.Vst
 {
 
 	/*

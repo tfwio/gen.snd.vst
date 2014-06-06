@@ -25,13 +25,13 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 
-using DspAudio.Midi;
+using gen.snd.Midi;
 using Jacobi.Vst.Core;
 using Jacobi.Vst.Core.Host;
 using Jacobi.Vst.Interop.Host;
 using NAudio.Wave;
 
-namespace DspAudio.Midi
+namespace gen.snd.Midi
 {
 	static public class VstMidiSystem
 	{

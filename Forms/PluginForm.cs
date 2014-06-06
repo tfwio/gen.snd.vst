@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Windows.Forms;
-using DspAudio.Vst.Module;
+using gen.snd.Vst.Module;
 using Jacobi.Vst.Core;
 using Jacobi.Vst.Interop.Host;
 
-namespace DspAudio.Vst.Forms
+namespace gen.snd.Vst.Forms
 {
 	
 	public partial class PluginForm : Form

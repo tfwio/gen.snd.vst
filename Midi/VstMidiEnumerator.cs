@@ -25,16 +25,16 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 
-using DspAudio.Midi;
-using DspAudio.Vst;
-using DspAudio.Vst.Module;
-using DspAudio.Vst.Xml;
+using gen.snd.Midi;
+using gen.snd.Vst;
+using gen.snd.Vst.Module;
+using gen.snd.Vst.Xml;
 using Jacobi.Vst.Core;
 using Jacobi.Vst.Core.Host;
 using NAudio.CoreAudioApi;
 using NAudio.Wave;
 
-namespace DspAudio.Vst
+namespace gen.snd.Vst
 {
 	static public class VstMidiEnumerator
 	{
