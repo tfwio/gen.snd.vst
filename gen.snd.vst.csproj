@@ -101,63 +101,63 @@
     <Compile Include="..\cor3.forms\Forms\WinTheme.cs">
       <Link>Include\WinTheme.cs</Link>
     </Compile>
-    <Compile Include="Forms\EditorFrame.cs">
+    <Compile Include="Source\Forms\EditorFrame.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\EditorFrame.Designer.cs">
+    <Compile Include="Source\Forms\EditorFrame.Designer.cs">
       <DependentUpon>EditorFrame.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\PluginForm.cs">
+    <Compile Include="Source\Forms\PluginForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\PluginForm.Designer.cs">
+    <Compile Include="Source\Forms\PluginForm.Designer.cs">
       <DependentUpon>PluginForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\PluginProgram.cs" />
-    <Compile Include="IMidiParserUI.cs" />
-    <Compile Include="IMidiView.cs" />
-    <Compile Include="Midi\NoteTransport.cs" />
-    <Compile Include="Midi\VstMidiEnumerator.cs" />
-    <Compile Include="Midi\VstMidiSystem.cs" />
-    <Compile Include="Vst.Module\VstPluginBank.cs" />
-    <Compile Include="Vst.Module\VstPluginChain.cs" />
-    <Compile Include="Vst\IOModule.cs" />
-    <Compile Include="Xml\ConvertHelper.cs" />
-    <Compile Include="Xml\MidiFile.cs" />
-    <Compile Include="Xml\MidiSmfFile.cs" />
-    <Compile Include="Xml\MidiSmfFileSettings.cs" />
-    <Compile Include="Xml\ChannelAssignment.cs" />
-    <Compile Include="Xml\Plugin.cs" />
+    <Compile Include="Source\Forms\PluginProgram.cs" />
+    <Compile Include="Source\IMidiParserUI.cs" />
+    <Compile Include="Source\IMidiView.cs" />
+    <Compile Include="Source\Midi\NoteTransport.cs" />
+    <Compile Include="Source\Midi\VstMidiEnumerator.cs" />
+    <Compile Include="Source\Midi\VstMidiSystem.cs" />
+    <Compile Include="Source\Vst.Module\VstPluginBank.cs" />
+    <Compile Include="Source\Vst.Module\VstPluginChain.cs" />
+    <Compile Include="Source\Vst\IOModule.cs" />
+    <Compile Include="Source\Xml\ConvertHelper.cs" />
+    <Compile Include="Source\Xml\MidiFile.cs" />
+    <Compile Include="Source\Xml\MidiSmfFile.cs" />
+    <Compile Include="Source\Xml\MidiSmfFileSettings.cs" />
+    <Compile Include="Source\Xml\ChannelAssignment.cs" />
+    <Compile Include="Source\Xml\Plugin.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Strings.Designer.cs">
       <DependentUpon>Strings.resx</DependentUpon>
       <AutoGen>True</AutoGen>
     </Compile>
-    <Compile Include="Vst.Module\PluginCalledEventArgs.cs" />
-    <Compile Include="Vst.Module\PluginCollector.cs" />
-    <Compile Include="Vst.Module\VstCCParam.cs" />
-    <Compile Include="Vst.Module\VstCCPgm.cs" />
-    <Compile Include="Vst.Module\VstPlugin.cs" />
-    <Compile Include="Vst.Module\VstPluginManager.cs" />
-    <Compile Include="Vst\AudioProcess.cs" />
-    <Compile Include="Vst\HostCommandStub.cs" />
-    <Compile Include="Vst\INaudioVST.cs" />
-    <Compile Include="Vst\INaudioVstWin.cs" />
-    <Compile Include="Vst\AudioModule.cs" />
-    <Compile Include="Vst\NAudioVST.cs" />
-    <Compile Include="Vst\NAudioVstContainer.cs" />
-    <Compile Include="Vst\NAudioVSTCycleEventArgs.cs" />
-    <Compile Include="Vst\AutomationParam.cs" />
-    <Compile Include="Vst\VSTStream32.cs" />
-    <Compile Include="Vst\VSTStreamEventArgs.cs" />
-    <Compile Include="Xml\PluginBase.cs" />
-    <Compile Include="Xml\VstModule.cs" />
+    <Compile Include="Source\Vst.Module\PluginCalledEventArgs.cs" />
+    <Compile Include="Source\Xml\PluginCollector.cs" />
+    <Compile Include="Source\Vst.Module\VstCCParam.cs" />
+    <Compile Include="Source\Vst.Module\VstCCPgm.cs" />
+    <Compile Include="Source\Vst.Module\VstPlugin.cs" />
+    <Compile Include="Source\Vst.Module\VstPluginManager.cs" />
+    <Compile Include="Source\Vst\AudioProcess.cs" />
+    <Compile Include="Source\Vst\HostCommandStub.cs" />
+    <Compile Include="Source\Vst\INaudioVST.cs" />
+    <Compile Include="Source\Vst\INaudioVstWin.cs" />
+    <Compile Include="Source\Vst\AudioModule.cs" />
+    <Compile Include="Source\Vst\NAudioVST.cs" />
+    <Compile Include="Source\Vst\NAudioVstContainer.cs" />
+    <Compile Include="Source\Vst\NAudioVSTCycleEventArgs.cs" />
+    <Compile Include="Source\Vst\AutomationParam.cs" />
+    <Compile Include="Source\Vst\VSTStream32.cs" />
+    <Compile Include="Source\Vst\VSTStreamEventArgs.cs" />
+    <Compile Include="Source\Xml\PluginBase.cs" />
+    <Compile Include="Source\Xml\VstModule.cs" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Forms\EditorFrame.resx">
+    <EmbeddedResource Include="Source\Forms\EditorFrame.resx">
       <DependentUpon>EditorFrame.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\PluginForm.resx">
+    <EmbeddedResource Include="Source\Forms\PluginForm.resx">
       <DependentUpon>PluginForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Strings.resx">
