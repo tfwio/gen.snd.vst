@@ -62,11 +62,16 @@ namespace gen.snd.Vst
 		public MidiSmfFile RuntimeSettings {
 			get { return runtimeSettings; }
 			set { runtimeSettings = value; }
-		}MidiSmfFile runtimeSettings;
+		} MidiSmfFile runtimeSettings;
+
 		public VstPluginManager PluginManager { get { return pluginManager; } } VstPluginManager pluginManager;
-		public IMidiParserUI Parent { get { return parent; } } IMidiParserUI parent;
+		
+        public IMidiParserUI Parent { get { return parent; } } IMidiParserUI parent;
+
 		public NAudioVST VstPlayer { get { return vstPlayer; } } NAudioVST vstPlayer;
+
 		public HostCommandStub VstHost { get { return vstPlayer.VstHostCommandStub; } }
+
 		public bool IsPlayerStopped { get { return VstPlayer.XAudio==null; } }
 
 		#region Const

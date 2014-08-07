@@ -7,7 +7,7 @@
     <OutputType>Library</OutputType>
     <RootNamespace>gen.snd</RootNamespace>
     <AssemblyName>gen.snd.vst</AssemblyName>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <TargetFrameworkProfile />
     <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
@@ -43,7 +43,7 @@
     <RegisterForComInterop>False</RegisterForComInterop>
     <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
     <BaseAddress>4194304</BaseAddress>
-    <PlatformTarget>x86</PlatformTarget>
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <FileAlignment>4096</FileAlignment>
   </PropertyGroup>
   <!--  <ItemGroup Condition=" '$(Platform)' == 'Jacobi_x86' ">

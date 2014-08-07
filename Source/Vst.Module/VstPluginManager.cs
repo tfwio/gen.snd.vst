@@ -34,6 +34,7 @@ namespace gen.snd.Vst.Module
 	public class VstPluginManager : INotifyPropertyChanged
 	{
 		const string config_file = "settings.cfg";
+
 		void OnPropertyChanged(string key)
 		{
 			if (PropertyChanged!=null) PropertyChanged(this,new PropertyChangedEventArgs(key));
@@ -58,6 +59,7 @@ namespace gen.snd.Vst.Module
 			set { pluginsList = value; OnPropertyChanged("PluginsList"); }
 		} List<string> pluginsList = new List<string>();
 		#endregion
+
 		#region MODULES
 		
 		public List<VstPlugin> GeneratorModules {
@@ -158,17 +160,22 @@ namespace gen.snd.Vst.Module
 				}
 			}
 		}
+
 		bool HasPluginPath(string path)
 		{
 			foreach (VstPlugin p in Plugins)
 				if (p.PluginPath==path) return true;
 			return false;
 		}
+
 		public void RemovePlugin(VstPlugin ctx)
 		{
 			if ( ctx != null )
 			{
-				ctx.Dispose();
+                string path = ctx.PluginPath; // checkme
+                ctx.PrsData = null; // checkme
+                ctx.Dispose();
+                pluginsList.Remove(path); // checkme
 				_plugins.Remove(ctx);
 				OnPropertyChanged("RemovePlugin");
 			}

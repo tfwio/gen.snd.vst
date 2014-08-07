@@ -193,7 +193,8 @@ namespace gen.snd.Vst
 			Wave
 		}
 		#endregion
-		/// <summary>
+		
+        /// <summary>
 		/// The default driver used by the VST Host.
 		/// </summary>
 		public NAudioVST.Driver AudioDriver {
