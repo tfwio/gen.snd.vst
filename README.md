@@ -1,3 +1,7 @@
+> OBSOLETE — ALL LIBRARIES ARE NOW COMBINED INTO https://github.com/tfwio/modest-smf-vstnet
+
+----
+
 gen.snd.vst
 ===========
 
