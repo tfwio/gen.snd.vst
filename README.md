@@ -1,4 +1,4 @@
-> OBSOLETE — ALL LIBRARIES ARE NOW COMBINED INTO https://github.com/tfwio/modest-smf-vstnet
+> OBSOLETE — all USEFUL/RELATED sources are under one hood now https://github.com/tfwio/modest-smf-vstnet
 
 ----
 
